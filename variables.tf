@@ -7,11 +7,6 @@ variable "environment" {
 }
 
 variable "registry" {
-  default = "629049518246.dkr.ecr.us-east-1.amazonaws.com"
+  default = "<enter-your-registry>"
   type    = string
-}
-
-variable "organization_name" {
- type = string
- default = "shemaIkuzwe"
 }
