@@ -2,6 +2,10 @@ variable "cluster_name" {
   type = string
 }
 
+variable "organization_name" {
+  type    = string
+  default = "shemaIkuzwe"
+}
 variable "environment" {
   type = string
 }
